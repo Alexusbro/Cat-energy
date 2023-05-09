@@ -1,0 +1,1 @@
+{"version":3,"sources":["blocs/header.scss","style.css","style.scss"],"names":[],"mappings":"AAAA;EACE,YAAA;ACCF;;ACAA;EACE,wBAAA;ADGF","file":"style.css","sourcesContent":["h1 {\n  color: green;\n}\n","h1 {\n  color: green;\n}\n\nhtml {\n  background-color: purple;\n}","@import \"blocs/header.scss\";\n\nhtml {\n  background-color: purple;\n}\n"]}
