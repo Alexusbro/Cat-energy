@@ -1,0 +1,21 @@
+.process {
+  padding: 20px;
+}
+
+.process__title {
+  font-family: $font-heading;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin:0;
+}
+
+.process__list {
+  list-style: none;
+  font-family: $font-body;
+  color: $dark-grey;
+}
+
+.process__item:not(:last-child) {
+  padding-bottom: 20px;
+}

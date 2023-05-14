@@ -1,0 +1,38 @@
+.footer {
+  background-color: $basic-grey;
+}
+
+.footer__adress {
+  padding: 26px 20px;
+}
+
+.footer--white {
+  background-color: $color-white;
+}
+
+.footer__title {
+  font-family: $font-heading;
+  font-size: 16px;
+  line-height: 20px;
+  color: $dark-grey-9;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  font-family: $font-body;
+  font-size: 14px;
+  line-height: 20px;
+  color: $dark-grey;
+}
+
+.footer-social {
+  padding: 40px 20px 22px;
+  text-align: center;
+}
+
+.footer__developer {
+  font-family: $font-body;
+  font-size: 16px;
+  color: $dark-grey;
+  text-decoration: none;
+}

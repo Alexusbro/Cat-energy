@@ -1,8 +1,231 @@
-h1 {
-  color: green;
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/oswaldregular.woff2") format("woff2"), url("../fonts/oswaldregular.woff") format("woff");
+}
+@font-face {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/oswaldmedium.woff2") format("woff2"), url("../fonts/oswaldmedium.woff") format("woff");
+}
+.page {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
 }
 
-html {
-  background-color: purple;
+.page__body {
+  margin: 0;
+}
+
+.main-nav {
+  text-align: center;
+}
+.main-nav__list {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;
+  list-style: none;
+}
+.main-nav__link {
+  color: #000000;
+  text-decoration: none;
+}
+
+.program-list {
+  padding: 20px;
+}
+
+.program-list__item {
+  background-color: #F2F2F2;
+  padding-left: 20px;
+}
+
+.program-list__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 400;
+}
+
+.program-list__description {
+  font-family: "Arial", sans-serif;
+  color: #444444;
+}
+
+.program-list__link {
+  text-decoration: none;
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.process {
+  padding: 20px;
+}
+
+.process__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.process__list {
+  list-style: none;
+  font-family: "Arial", sans-serif;
+  color: #444444;
+}
+
+.process__item:not(:last-child) {
+  padding-bottom: 20px;
+}
+
+.example {
+  padding: 25px 25px 40px;
+  background-color: #EAEAEA;
+}
+
+.example__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.example__text {
+  font-family: "Arial", sans-serif;
+  color: #444444;
+}
+
+.example__item {
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 12px;
+  color: #444444;
+  text-transform: lowercase;
+}
+
+.example__description {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.example__spending {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.example__toggle {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.footer {
+  background-color: #F2F2F2;
+}
+
+.footer__adress {
+  padding: 26px 20px;
+}
+
+.footer--white {
+  background-color: #FFFFFF;
+}
+
+.footer__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: #111111;
+  text-transform: uppercase;
+}
+
+.footer__text {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #444444;
+}
+
+.footer-social {
+  padding: 40px 20px 22px;
+  text-align: center;
+}
+
+.footer__developer {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: #444444;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.promo {
+  color: #FFFFFF;
+  background-image: url("../../img/background/cat-promo.jpg");
+  background-color: #68B738;
+}
+
+.promo__container {
+  padding: 20px;
+  background-color: #68B738;
+  opacity: 0.8;
+  text-align: center;
+}
+
+.promo__title {
+  font-family: "Oswald", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.promo__slogan {
+  font-family: "Oswald", "Arial", sans-serif;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.button {
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: "Oswald", "Arial", sans-serif;
+  text-transform: uppercase;
+  background-color: #68B738;
+}
+
+.promo__button {
+  line-height: 18px;
+  padding: 7px 44px;
 }
 /*# sourceMappingURL=style.css.map */

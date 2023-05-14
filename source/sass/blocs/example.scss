@@ -1,0 +1,46 @@
+.example {
+  padding: 25px 25px 40px;
+  background-color: $background-grey;
+}
+
+.example__title {
+  font-family: $font-heading;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.example__text {
+  font-family: $font-body;
+  color: $dark-grey;
+}
+
+.example__item {
+  font-family: $font-body;
+  font-size: 12px;
+  line-height: 12px;
+  color: $dark-grey;
+  text-transform: lowercase;
+}
+
+.example__description {
+  font-family: $font-heading;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.example__spending {
+  font-family: $font-heading;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.example__toggle {
+  font-family: $font-heading;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}

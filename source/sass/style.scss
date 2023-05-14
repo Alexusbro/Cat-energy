@@ -1,5 +1,12 @@
-@import "blocs/header.scss";
+@import "./fonts.scss";
+@import "./variables.scss";
+@import "./blocs/page.scss";
+@import "./blocs/main-nav.scss";
+@import "./blocs/program-list.scss";
+@import "./blocs/process.scss";
+@import "./blocs/example.scss";
+@import "./blocs/footer.scss";
+@import "./blocs/visually-hidden.scss";
+@import "./blocs/promo.scss";
+@import "./blocs/button.scss";
 
-html {
-  background-color: purple;
-}
