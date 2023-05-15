@@ -1,0 +1,54 @@
+.field-group {
+  border: none;
+}
+
+.field-group__list {
+  list-style: none;
+}
+
+.field__text {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $dark-grey;
+  text-transform: uppercase;
+}
+
+.field__input {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $dark-grey;
+  text-transform: uppercase;
+}
+
+.control__text {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $dark-grey-2;
+  text-transform: uppercase;
+}
+
+.field-group__heading {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+.checkbox__text {
+  font-family: $font-heading;
+  font-size: 16px;
+  line-height: 18px;
+  text-transform: uppercase;
+}
+
+.form__remark {
+  font-family: $font-body;
+  font-size: 14px;
+  line-height: 16px;
+}
