@@ -35,7 +35,7 @@
   font-family: $font-body;
   font-size: 16px;
   line-height: 20px;
-  background-image: url(../../img/background/cat-additional-offer.jpg);
+  background-image: url("../../img/background/cat-additional-offer.jpg");
   background-color: $color-primary;
   padding: 60px 60px 40px 60px;
   color: $color-white;
@@ -43,7 +43,7 @@
 
   &::after {
     content: "";
-    position:absolute;
+    position: absolute;
     background-color: $color-primary;
     opacity: 0.8;
     top: 0;
