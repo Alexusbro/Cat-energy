@@ -1,0 +1,31 @@
+.additional {
+  padding: 20px;
+}
+
+.additional__title {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.additional__list {
+  list-style: none;
+}
+
+.additional__heading {
+  font-family: $font-heading;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: $dark-grey-2;
+}
+
+.card-additional__description {
+  font-family: $font-body;
+  font-size: 14px;
+  line-height: 14px;
+  color: $dark-grey;
+}
