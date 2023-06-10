@@ -1,5 +1,5 @@
-.process {
-  padding: 20px;
+.process__container {
+  margin:0 auto;
 }
 
 .process__title {
@@ -14,6 +14,19 @@
   list-style: none;
   font-family: $font-body;
   color: $dark-grey;
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 80px;
+  }
 }
 
 .process__item:not(:last-child) {

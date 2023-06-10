@@ -1,11 +1,20 @@
 .promo {
   color: $color-white;
   background-image: url("../../img/background/cat-promo.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
   background-color: $color-primary;
   padding: 20px;
   text-align: center;
   position: relative;
   z-index: 0;
+
+  @media (min-width: $tablet-width) and (max-width: $desktop-width) {
+    padding: 30px;
+    background-image: none;
+    background-color: $color-white;
+    color: $color-black;
+  }
 
   &::after {
     content: "";
@@ -17,6 +26,10 @@
     right: 0;
     bottom: 0;
     z-index: -1;
+
+    @media (min-width: $tablet-width) and (max-width: $desktop-width) {
+      content: none;
+    }
   }
 }
 

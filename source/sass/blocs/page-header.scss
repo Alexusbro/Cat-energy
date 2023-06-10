@@ -1,0 +1,32 @@
+.main-nav {
+  width: 280px;
+  text-align: center;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 708px;
+    display: grid;
+    grid-template-columns: 174px 1fr;
+    gap: 20px;
+    }
+
+  @media (min-width: $desktop-width) {
+    width: 1220px;
+    grid-template-columns: 202px 1fr;
+    justify-content: space-between;
+  }
+}
+  .main-nav__bar {
+    display: grid;
+    grid-template-columns: 34px 1fr 34px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .main-nav__toggle {
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
+
+

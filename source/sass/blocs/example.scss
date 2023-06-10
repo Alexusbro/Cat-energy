@@ -1,5 +1,5 @@
 .example {
-  padding: 25px 25px 40px;
+  padding: 20px 20px 40px;
   background-color: $background-grey;
 }
 
@@ -43,4 +43,19 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
+}
+
+.example__wrapper {
+  @media (min-width: $tablet-width) and (max-width: $desktop-width)   {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.example__container {
+  @media (min-width: $desktop-width) {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
 }

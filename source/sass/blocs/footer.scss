@@ -25,9 +25,24 @@
   color: $dark-grey;
 }
 
-.footer-social {
+.footer-social__container {
   padding: 40px 20px 22px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer-social__list {
+  margin: 0 auto;
+  padding: 0;
+  width: 130px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .footer__developer {
@@ -35,4 +50,6 @@
   font-size: 16px;
   color: $dark-grey;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
